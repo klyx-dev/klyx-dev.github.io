@@ -1,21 +1,35 @@
-# Next.js template
+# klyx.dev
 
-This is a Next.js template with shadcn/ui.
+Landing page for [Klyx](https://github.com/klyx-dev/klyx) — a modern code editor for Android.
+
+Built with Next.js, shadcn/ui, Tailwind CSS, and TypeScript.
+
+## Getting started
+
+```bash
+bun install
+bun run dev
+```
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `bun run dev` | Start dev server |
+| `bun run build` | Static export to `out/` |
+| `bun run lint` | Run ESLint |
+| `bun run typecheck` | Run TypeScript check |
 
 ## Adding components
 
-To add components to your app, run the following command:
-
 ```bash
-npx shadcn@latest add button
+bunx shadcn@latest add <component>
 ```
 
-This will place the ui components in the `components` directory.
+## Stack
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+- **Framework**: Next.js 16 (App Router, static export)
+- **UI**: shadcn/ui (radix-nova), Tailwind CSS v4
+- **Icons**: lucide-react
+- **Theme**: next-themes
+- **Typography**: Inter + JetBrains Mono
